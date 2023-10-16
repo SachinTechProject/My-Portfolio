@@ -7,34 +7,102 @@
     <title>Document</title>
     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        section{
+           height: 100;
+           display: grid;
+           grid-template-columns: 3fr 9fr; 
+        }
+        header{
+            margin-bottom: 30px;
+        }
+        li{
+            font-size: 16px;
+        }
+    </style>
+       
 </head>
 
 <body class="container-fluid ">
-    <h1 class="text-center">This is my first heading</h1>
-    <div class="accordion" id="fsq">
-        <div class="accordion-header">
-            <button class="accordion-button" data-bs-target="#q1" data-bs-toggle="collapse">What is Netflix</button>
-        </div>
-        <div class="accordion-collapse collapse" id="q1" data-bs-parent="#fsq">
-            <div class="accordion-body">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam qui et quo?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at, ut sequi voluptatem explicabo
-                     magnam veritatis facere enim quam?</p>
+
+        <header class="d-flex justify-content-between">
+            <div class="p-4 ">
+                <div class="text-primary h4">YOUR_NAME</div>
+                <div class="h4">SUR_NAME</div>
             </div>
-        </div>
-        <div class="accordion-header">
-            <button class="accordion-button" data-bs-target="#q2" data-bs-toggle="collapse">What is Netflix</button>
-        </div>
-        <div class="accordion-collapse collapse" id="q2" data-bs-parent="#fsq">
-            <div class="accordion-body">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam qui et quo?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at, ut sequi voluptatem explicabo
-                     magnam veritatis facere enim quam?</p>
+            <div>
+                <div class="mt-3 ms-">
+                    <div><span class="text-primary">Address</span>:#2-52Some Place,City,State Pin:500-000</div>
+                  <div style="margin-left: 205px; margin-right: 15px; margin-top: 13px; margin-bottom: 13px;"><span>Ph.No:</span>9579095930</div>
+                </div>
+                <div style="margin-left: 95px;"><span style="color: rgb(60, 60, 223);">Gmail ID:</span><span class="text-primary"> youremail_id@gmail.com</span></div>
+                <div>Portfolio: <span></span></div>
+
             </div>
-        </div>
-    </div>
-    
-    
+        </header> 
+        <section class="container-fluid ">
+            <div class="bg-body-secondary ">
+                <div class="card-header">
+                    <h5 class="mt-5 ms-4 text-primary">TECHNICAL EXPRERTISE</h5>
+                </div>
+                <div class="bg-light  m-3 pb-3 p-5">
+                    <dt>1.JAVASCRIPT</dt>
+                      <ul style="">
+                        <li>Data Types & Structure</li>
+                        <li>Statements</li>
+                        <li>Functions</li>
+                        <li>Classes</li>
+                      </ul>
+                    
+                    <dt>2. TYPESCRIPT</dt>
+                    <ul>
+                        <li>Contracts</li>
+                        <li>Templantes</li>
+                        <li>Generics</li>
+                        <li>Enum</li>
+                        <li>Modules</li>
+                        <li>Namespace</li>
+                    </ul>
+                    <dt>3. REACT JS</dt>
+                    <ul>
+                        <li>Add React to Website</li>
+                        <li>React Library & JSX</li>
+                        <li>Components & Props</li>
+                        <li>State & Data Binding</li>
+                        <li>Lifecycle &amp; Hooks</li>
+                        <li>Handling Events</li>
+                        <li>Conditional Rendering</li>
+                        <li>Forms &amp; Validations</li>
+                        <li>Material UI</li>
+                        <li>Routing, Cookies & <br>
+                            Authentication</li>
+                        <li>Working with API</li>
+                        <li>Redux</li>
+                        <li>Webpack</li>
+                        <li>Testing with JEST</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="mt-2 mb-4 ms-4">FLUENT LANGUAGES</div>
+                    <div class="bg-white p-2 m-4">English,Hindhi & anyother</div>
+                    <div class="mt-2 mb-4 ms-4">PERSONAL INFORMATION</div>
+                    <div class="bg-white  p-2 m-4">Date of Birth: Month-dd-yyyy</div>
+                </div>
+            </div>
+            <div class=" ms-5" style="">
+                <h3 class="text-primary" style="font-family: aria;">ABOUT ME</h3>
+                <p>I am <span class="text-danger fw-bold" ><u>Sachin Shriram Suralkar</u></span> an aspiring Web UI Full Stack Learning fresher who is trying to seek <br>
+                    a role to enhance and explore my technical knowledge in your company.</p>
+                
+                <div class="text-primary" style="font-family: aria;">CAREER OBJECTIVE</div>
+                <p>I want to be a part of renewed organization &amp; to contribute towards the growth of the <br>
+                    organization based on my personal capabilities by learning from the new exposure <br>
+                    within the structured frame of work.</p>
+            </div>
+        </section>
 
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
